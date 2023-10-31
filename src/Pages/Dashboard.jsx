@@ -38,25 +38,25 @@ const Dashboard = () => {
             </svg>
             <span>Total Income</span>
             <a href="#">
-                <h5 className="mb-2 text-xl lg:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">N {tIncome }</h5>
+                <h5 className="mb-2 text-xl lg:text-2xl font-semibold tracking-tight text-gray-900 ">N {tIncome }</h5>
             </a>
 
             </div>
         </div>
 
         <div className=' sm:col-span-1 col-span-3'>
-            <div className=" sm:p-6 p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" sm:p-6 p-4 bg-white border border-gray-200 rounded-lg shadow ">
             <svg className="w-7 h-7 text-gray-500 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M11.074 4 8.442.408A.95.95 0 0 0 7.014.254L2.926 4h8.148ZM9 13v-1a4 4 0 0 1 4-4h6V6a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h17a1 1 0 0 0 1-1v-2h-6a4 4 0 0 1-4-4Z"/>
                 <path d="M19 10h-6a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1Zm-4.5 3.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM12.62 4h2.78L12.539.41a1.086 1.086 0 1 0-1.7 1.352L12.62 4Z"/>
             </svg>
                 <span>Expenses</span>
-                    <h5 className="mb-2 text-xl lg:text-2xl font-semibold tracking-tight text-red-700 dark:text-white">N {Texpense}</h5>
+                    <h5 className="mb-2 text-xl lg:text-2xl font-semibold tracking-tight text-red-700">N {Texpense}</h5>
             </div>
         </div>
 
         <div className=' sm:col-span-1 col-span-3'>
-            <div className="sm:p-6 p-4  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="sm:p-6 p-4  bg-white border border-gray-200 rounded-lg shadow ">
             <svg className="w-7 h-7 text-gray-500 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M11.074 4 8.442.408A.95.95 0 0 0 7.014.254L2.926 4h8.148ZM9 13v-1a4 4 0 0 1 4-4h6V6a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h17a1 1 0 0 0 1-1v-2h-6a4 4 0 0 1-4-4Z"/>
                 <path d="M19 10h-6a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1Zm-4.5 3.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM12.62 4h2.78L12.539.41a1.086 1.086 0 1 0-1.7 1.352L12.62 4Z"/>
