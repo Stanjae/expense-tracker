@@ -111,6 +111,7 @@ const MobileNav = () => {
             Log in with Google <span aria-hidden="true">&rarr;</span>
           </button>
           :
+          <Link to='/dashboard'>
           <div className="flex z-50 items-center space-x-4">
             <img
               className="w-10 z-50  h-10 rounded-full"
@@ -118,11 +119,9 @@ const MobileNav = () => {
             />
             <div className="font-medium dark:text-white">
               <div>{name}</div>
-              {/* <div class="text-sm text-gray-500 dark:text-gray-400">
-                Joined in August 2014
-              </div> */}
             </div>
           </div>
+          </Link>
         }
         </div>
       </nav>
