@@ -36,7 +36,7 @@ export default function HomePage() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              <a href="https://github.com/Stanjae/expense-tracker" className="text-sm font-semibold leading-6 text-gray-900">
                 Check Code <span aria-hidden="true">→</span>
               </a>
             </div>
